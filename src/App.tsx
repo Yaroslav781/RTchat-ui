@@ -9,10 +9,10 @@ function App() {
       <Routes>
         <Route path="/login" element={<LoginPage />} />
 
-        // Chat route
+        {/* Chat route */}
         <Route path="/chats" element={<ChatsPage />} />
 
-        // Default route
+        {/* Default route */}
         <Route path="*" element={<Navigate to="/chats" replace />} />
       </Routes>
     </BrowserRouter>
